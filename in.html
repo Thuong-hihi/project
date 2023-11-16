@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            position: relative;
+        }
+
+        .overlay p {
+            opacity: 0;
+            position: absolute;
+            /* top: 50%;
+            left: 50%; */
+            transform: translate(-50%, -50%);
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .image-container:hover .overlay p {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image-container">
+        <div>
+            <img src="img/image 127.png" alt="" class="imgae-1">
+        </div>
+        <h1 class="text-content1">Cricket for Good</h1>
+        <div class="overlay">
+            <p>Anim non voluptate elit nulla. Aliqua duis tempor ullamco consectetur consequat pariatur idnostrud aliqua
+                in laboris sunt fugiat</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
